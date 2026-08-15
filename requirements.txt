@@ -1,0 +1,19 @@
+fastapi
+uvicorn
+httpx 
+logfire[fastapi] 
+pydantic
+
+python-dotenv
+openai
+
+## core ML lib
+pandas
+matplotlib 
+numpy 
+seaborn 
+tensorflow 
+scikit-learn
+xgboost
+
+httpx

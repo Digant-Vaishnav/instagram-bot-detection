@@ -1,0 +1,7 @@
+.logfire
+.venv
+.vscode
+.env
+__pycache__
+raw_data/
+frontend/node_modules/
