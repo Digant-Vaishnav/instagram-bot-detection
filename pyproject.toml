@@ -2,6 +2,22 @@
 name = "botlens-backend"
 version = "1.0.0"
 requires-python = ">=3.9"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "httpx",
+    "logfire[fastapi]",
+    "pydantic",
+    "python-dotenv",
+    "openai",
+    "pandas",
+    "matplotlib",
+    "numpy",
+    "seaborn",
+    "tensorflow",
+    "scikit-learn",
+    "xgboost"
+]
 
 [tool.vercel]
 entrypoint = "app.services.api:app"
