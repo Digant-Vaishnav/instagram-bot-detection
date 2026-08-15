@@ -11,10 +11,6 @@ dependencies = [
     "python-dotenv",
     "openai",
     "pandas",
-    "matplotlib",
-    "numpy",
-    "seaborn",
-    "tensorflow",
     "scikit-learn",
     "xgboost"
 ]
