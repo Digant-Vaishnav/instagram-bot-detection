@@ -25,7 +25,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-logfire.configure()
+logfire.configure(send_to_logfire='if-token-present')
 logfire.instrument_fastapi(app)
 
 HIKER_TOKEN = os.getenv("HIKERAPI_TOKEN")
