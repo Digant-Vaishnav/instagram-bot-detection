@@ -17,7 +17,7 @@ export default function App() {
     setError(null);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/v1/analyze", {
+      const response = await fetch("https://instagram-bot-detection.onrender.com/api/v1/analyze", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ target_username: username.trim() }),
